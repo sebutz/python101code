@@ -4,11 +4,11 @@
 def function_a():
     a = 1
     b = 2
-    return a+b
+    return a + b
 
 def function_b():
     c = 3
-    return a+c
-
+ #  return a + c   # NameError , a is not defined
+    return c 
 print( function_a() )
 print( function_b() )
