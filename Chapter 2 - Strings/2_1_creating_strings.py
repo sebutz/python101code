@@ -40,3 +40,18 @@ print(my_number)
 print(my_string)
 # A: you can pass different types to print, without worrying
 print(123, "aaaa", 34.0)
+
+# run & learn
+
+'''
+This is a
+multi-line string. It covers more than
+one line
+type of my_number: <class 'int'>
+id of my_number: 4304459696
+id after re-assignment of my_number: 4304463248
+type of my_number2: <class 'float'>
+234
+234
+123 aaaa 34.0
+'''
