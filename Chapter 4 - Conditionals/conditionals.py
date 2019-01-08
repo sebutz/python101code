@@ -114,7 +114,7 @@ else:
 
 
 '''
-# execute this code only if this program is executed as standlone file
+# execute this code only if this program is executed as standalone file
 if __name__ == "__main__":
     #whatever
 '''
