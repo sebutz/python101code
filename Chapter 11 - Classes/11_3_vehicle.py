@@ -22,7 +22,7 @@ class Vehicle(object):
         """
         return "I'm driving!"
     
-    
+# what code to run if this file is run as standalone
 if __name__ == "__main__":
     car = Vehicle("blue", 5, 4)
     print(car.color)
