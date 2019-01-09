@@ -4,9 +4,10 @@ def csv_reader(file_obj):
     """
     Read a csv file
     """
-    reader = csv.reader(file_obj)
+    reader = csv.reader(file_obj) # get a reader object from the file object
+    # the reader object allows iteration
     for row in reader:
-        print(" ".join(row))
+        print(" ".join(row)) # each row is a list of words (commas are not taken into consideration)
     
     
 if __name__ == "__main__":
